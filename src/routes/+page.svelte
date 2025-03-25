@@ -1,6 +1,6 @@
 <script>
 	import './app.css';
+	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<h1>Home</h1>
-<p>This is the home page.</p>
+<Hero />
