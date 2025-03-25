@@ -1,0 +1,54 @@
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #101010;
+		color: white;
+	}
+}
+
+/* Reset and global styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	min-height: 100vh;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+button,
+a {
+	cursor: pointer;
+}
+
+:focus-visible {
+	outline: 2px solid #007bff;
+}
+
+button,
+input {
+	border: none;
+	background: none;
+	outline: none;
+}
