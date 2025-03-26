@@ -52,3 +52,19 @@ input {
 	background: none;
 	outline: none;
 }
+
+/* Typography */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400; /* Regular weight for body text */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 700; /* Bold weight for headers */
+}

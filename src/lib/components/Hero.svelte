@@ -62,7 +62,7 @@
 
 	.hero-copy {
 		position: absolute;
-		bottom: 4rem;
+		bottom: -3rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -105,10 +105,12 @@
 	}
 
 	.hero-copy h1 {
-		font-size: 5rem;
-		font-weight: 900;
+		padding-block: 0;
+		padding: 0;
+		font-size: 10rem;
 		text-align: center;
 		text-transform: uppercase;
+		letter-spacing: 0.25em;
 	}
 
 	.hero-copy p {

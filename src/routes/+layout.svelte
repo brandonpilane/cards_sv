@@ -29,7 +29,6 @@
 		width: 6em;
 		text-align: center;
 		border-radius: 0.25em;
-		font-weight: 800;
 	}
 
 	a:hover {
